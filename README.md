@@ -51,6 +51,21 @@ Replace the Text "Nano Jobs Personnel GmbH" in the lower navbar to -> "Nano Jobs
 ## Change 4:
 
 ***Note: Check Sultan Videos and Ask him about the Details!***
+ Note: there is changes will applyed on the fields in the **Worker Hour Recording** Section:
+
+URL: http://admin.nanojobs-gmbh.de/#/dashboard/workers/details-worker/1/worker-hour-recording
+
+in the Image below change the field names to be in this Order and check the voice messages from Sultan:
+
+![Worker Hour Recording_Change4](./Assets/Change4_fileds_names.jpg)
+
+1. Durchschnittberechnung 
+2. ⁠Feiertagszuchlag
+3. ⁠Sonntagszuschlag
+4. ⁠Nachtszuschlag 
+5. ⁠Mehrarbeitszuschlag
+
+امام كل رقم على الصورة قم باستبدال اسم الحقل بالاسماء السابقة
 
 The **worker-data-info** page will be split into two sections:
 
