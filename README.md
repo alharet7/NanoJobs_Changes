@@ -1,5 +1,6 @@
 # NanoJobs_Changes
 
+[Check Notes file please!](./Notes.md)
 
 ## change 1:
 Add a new link in the Home Navbar for the branches - the link name **Farnchise**. The **Farnchise** link will go to a new web page containing text and at the end of the page will be fields to fill and three check boxes:
