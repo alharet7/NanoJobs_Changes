@@ -80,9 +80,10 @@ The ***Signature*** field should be the first and last name.
 
 [Account info PDF]()
 
+---
 ## change 7:
 
-In the **Mobile App** the **Fill Data** pages (Questions & Fields) should fill a PDF file and give the Admin the abitlity to Print it from the **Fill data** section.
+In the **Mobile App** the **Fill Data** pages (Questions & Fields) should fill the fields and reflect the data on a PDF file and give the **Admin** the abitlity to Print it from the **Fill data** section.
 
 ### example of Implementation Steps
 
@@ -92,7 +93,7 @@ In the **Mobile App** the **Fill Data** pages (Questions & Fields) should fill a
 
 #### Server (Backend - .NET Core):
 - Receive data from the mobile app.
-- Use a PDF manipulation library (e.g., iTextSharp) to populate the PDF template.
+- Use a PDF library to populate the PDF template.
 - Store the completed PDF or make it available for download.
 
 #### Admin Dashboard (Angular):
@@ -106,6 +107,7 @@ URL: http://admin.nanojobs-gmbh.de/#/dashboard/workers/details-worker/1/worker-f
 
 [Fill Data PDF]()
 
+---
 ## Change 8: 
 
 Do the same idea -> In the **Mobile App** the **Exam** pages/check boxes should fill the ***Exam PDF file*** and the Admin should be able to download it from **Exam** page.
@@ -114,7 +116,7 @@ Do the same idea -> In the **Mobile App** the **Exam** pages/check boxes should 
 
 #### Preventing Edits:
 - Once the worker submits the exam, lock the responses on the server-side to prevent any changes.
-- Mark the exam as completed and disable further edits on the mobile app.
+- Mark the exam as completed and disable further edits on the mobile app.(if there is one and if not disable this section)
 
 #### Generating PDF:
 - Populate the PDF with the worker's responses using a server-side PDF generation library.
@@ -126,6 +128,7 @@ URL: http://admin.nanojobs-gmbh.de/#/dashboard/workers/details-worker/1/worker-e
 
 [Fragenborgen Alten- und Krankenpflege_Exam]()
 
+---
 ## Change 9:
 
 In the **Mobile App** The **Sign Contract** page inside the **User data**:
@@ -134,7 +137,7 @@ In the **Mobile App** The **Sign Contract** page inside the **User data**:
  - Change the **Terms & Conditions** To be -> **Contract** 
  - and the text in that page will be changed later!
 
-
+---
 ## Change 10: 
 
 In the **Mobile App** in the -> **Upload Documents** Section
@@ -145,13 +148,197 @@ In the **Mobile App** in the -> **Upload Documents** Section
 
 ![ID CARD](./Assets/IDCardUpdate.jpg)
 
+[Upload Documents PDF]()
+
+## Change 11:
+
+In the **Mobile App** -> **Document** Section -> **Personal Request** Section
+ - Add Two windows/Boxes 
+   - 1st one call/Name it: "Antrag auf Überstunden";
+   - 2nd one: "Kündigung";
+
+ - The 1st window/Box **Antrag auf Überstunden** should have two Fields:
+  - Gewünschte Anzahl der Überstunden:
+  - Monat:
+
+And reflect those data on the ***Antrag Auszahlung  ÜS*** -PDF file below with the other data that provided already before,
+After that the Admin will print it from the **Download document** page:
+URL: http://admin.nanojobs-gmbh.de/#/dashboard/workers/worker-download
+
+[Antrag Auszahlung  ÜS -PDF file]()
+
+ - The 2nd window/Box **Kündigung**
+  - Use the Data provided already before To fill the main Data (f.name,l.name. Address ...etc). and fill it in the right place on the **Kündigung Muster MA** PDF file provided below.
+  - Add a Download button with a note (Download the resignation file / Laden Sie die Kündigungsdatei herunter) - (for the worker on the Mobile.App)!!
+
+[Kündigung Muster MA PDF]()
+
+***Note: For this file, the Worker has to Download it fill it out manually, and send it by Local mail.***
 
 
+----
+## Change 12:
 
-## Change :
+In the **Mobile App** -> **Documents** -> The **Downloads** And **Settlements** Sections is not Downloading the files! Even though the **Download completed** dialogue appear!
 
-display a Personal number (ID) for each woker next to or below the Worker Name in the **Hour-recording** section
+---
+
+## Change 13-1:
+
+In the **Mobile App** -> **Time Tracking** -> **Vacations** Section:
+ - If he chose the first **Vacation Type** from the DropDown **(Tarif urlaub)**.
+ - Send the Data to fill the **Tarifurlaub** PDF file(provided below) when Submit and use the other data that provided already before to fill the rest fields.
+
+[Tarifurlaub PDF file]()
+
+---
+
+## Change 13-1:
+
+In the **Mobile App** -> **Time Tracking** -> **Vacations** Section:
+ - If he chose the 2nd **Vacation Type** from the DropDown **(Freizeit Urlaub)**.
+ - Send the Data to fill the **Freizeit Urlaub** PDF file(provided below)  and use the other data that provided already before to fill the rest fields when Submit.
+
+[Freizeit Urlaub PDF file]()
+
+---
+
+## Change 13-3:
+
+In the **Mobile App** -> **Time Tracking** -> **Vacations** Section:
+ - If he chose the 2nd **Vacation Type** from the DropDown **(Sonder urlaub)**.
+ - Send the Data to fill the **Sonderurlaub** PDF file(provided below)  and use the other data that provided already before to fill the rest fields when Submit.
+ - Note that please if he added a Comment add it in the proper place in the PDF.
+
+[Sonderurlaub  PDF file]()
+
+---
+
+## Change 13-4:
+The Same for the **Unbezahlten Urlaub** Choise:
+
+In the **Mobile App** -> **Time Tracking** -> **Vacations** Section:
+ - If he chose the 2nd **Vacation Type** from the DropDown **(Unbezahlten Urlaub)**.
+ - Send the Data to fill the **Unbezahlten Urlaub** PDF file(provided below)  and use the other data that provided already before to fill the rest fields when Submit.
+ - Note that please if he added a Comment add it in the proper place in the PDF.
+
+[Unbezahlten Urlaub  PDF file]()
+
+---
+
+## Change 14:
+
+In the **Mobile App** -> **Contract** -> In the **New Order** After the admin submits the job posting, this screen should appear for the worker, but it doesn't!
+
+![New Order](./Assets/NewOrders.png)
+
+- After he clicks the finish button, he should be transferred to a page with a field that is automatically filled in to the system, but he can edit it, and a screen for it to be signed by the company or entity he worked for. After that, the information is saved in the appropriate place in the PDF file, and both the Clint and the admins can download it.
+- The fields are named in the below PDF file.
+
+[Täglicher Tätigkeitsnachweis]()
+
+
+---
+## Change 15:
+
+In the **Mobile App** -> **User Data** -> The **Sign Contract** Section doesn't work If the application language is German!!  
+
+---
+## Change 16:
+
+In the **Mobile App** -> **Time Tracking** -> In The **Time Account** Section The time information should be shown in the form of a graph. It shows through the graph, if he has worked less than the contract agreed upon or more. Then the final result is reflected in the result box?
+
+![Time Account Char](Assets/Char.png)
+
+---
+## Change 17:
+
+In The **Company Dashboard** -> **My Data** Section -> The second name of the company must appear next to the first name, with a comma between them.
+
+![MyData_Client](./Assets/MyData_Client.png)
+
+URL: http://client.nanojobs-gmbh.de/#/company-dashboard/my-data
+
+---
+## Change 18:
+
+In The **Company Dashboard** -> **Download** Section:
+We sent files by admin, but they did not reach the client!
+
+URL: http://client.nanojobs-gmbh.de/#/company-dashboard/download
+
+---
+## Change 19:
+
+In The **Company Dashboard** -> **Documents** Section:
+
+ - In the **Contracts** Section There should be two buttons here, one to download the file and one to Upload it and Send it for the Admin.
+
+URL: http://client.nanojobs-gmbh.de/#/company-dashboard/documents/contracts
+
+ - In the **Bills** Section There should be a download button for the invoice and The Admin should Upload it before that!
+
+URL: http://client.nanojobs-gmbh.de/#/company-dashboard/documents/bills
+
+ - In the **Time Cheet** Section: After the employee finishes his work and presses the finish button in the New order Section, The admin must approve it. this File must arrive here so that the **company** can sign it and then re-upload it to be sent to the admins So the Admin can Download it. and a button for the Company to Print/ Download the whole files/month.
+
+URL: http://client.nanojobs-gmbh.de/#/company-dashboard/documents/time-sheet
+
+---
+## Change 20:
+
+On this page, the Address field should be filled automatically from the previously entered information in detail, and the name should show the name of the approved worker after the admin has approved it. The status should be dynamic, reflecting the real status of the request. The status names can be found in the following file.
+
+[New orders-Status ]()
+
+![Client_NewOrder](./Assets/Client_NewOrder.png)
+URL: http://client.nanojobs-gmbh.de/#/company-dashboard/documents/calendar
+
+---
+## Change 21:
+In The **Company Dashboard** -> **Documents** -> **List** Section:
+
+Paginate this page please and check with Sultan for Print mechanisem!
+
+URL: http://client.nanojobs-gmbh.de/#/company-dashboard/documents/list
+
+---
+## Change 22:
+
+In the **Admin Dashboard** -> The **Month Closing** Section:
+
+URL: http://admin.nanojobs-gmbh.de/#/dashboard/nano-jobs/month-closing
+
+The same table in the **Worker Hour Recording** should be displayed in **Month Closing**, but without the ability to edit. Even if the data is zero! The table should appear. So I know that he did not work at all during this month.
+
+URL: http://admin.nanojobs-gmbh.de/#/dashboard/workers/details-worker/1/worker-hour-recording
+
+![Worker_Table](./Assets/Worker_Table.png)
+
+---
+## Change 23:
+
+### Authorization Note: For the entire project, the super admin has full authority to see all Workers in all branches, while the admin cannot see workers except in his current city or in his current branch.
+
+--- 
+## Change 24:
+
+In the **Mobile App** -> **Contact** -> the **Contact Person** Section:
+ - How i can know my Contact per?
+ - where is the Image?
+ - How i can change him?
+
+**Note:** Aslo it should display only people in this branch or city.(if he wasn't Super Admin)
+
+
+--- 
+## Change 25:
+
+In the **Admin dashboard** -> **Workers** -> in the **Details Worker** Section:
+display a Personal number (P.N) for each worker next to or below the Worker Name in the **Hour Recording** section and This P.N  must be entered by the **Admin**.
 
 ![change6](./Assets/Change6.png)
 
 URL: http://admin.nanojobs-gmbh.de/#/dashboard/workers/details-worker/1/worker-hour-recording
+
+
