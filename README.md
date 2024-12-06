@@ -49,6 +49,9 @@ Replace the Text "Nano Jobs Personnel GmbH" in the lower navbar to -> "Nano Jobs
 ![change3-2](./Assets/change3-2.png)
 
 ## Change 4:
+
+***Note: Check Sultan Videos and Ask him about the Details!***
+
 The **worker-data-info** page will be split into two sections:
 
  - The First section will be for the data the worker has already filled. (There are changes on the Mobile app which will be covered later in these docs.)
