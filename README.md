@@ -20,7 +20,7 @@ Add a new link in the Home Navbar for the branches - the link name **Farnchise**
 examples:
 ![change1](./Assets/change1.png)
 
-[Franchise page PDF file]()
+[Franchise page PDF file](https://github.com/alharet7/NanoJobs_Changes/blob/main/Assets/Frenschise%20.pdf)
 
 URL: http://client.nanojobs-gmbh.de/#/home-page 
 
@@ -79,12 +79,12 @@ The ***Signature*** field should be the first and last name.
 
 ![Account_info_mobile](Assets/Account_info_mobile.jpg)
 
-[Account info PDF]()
+[Account info PDF](https://github.com/alharet7/NanoJobs_Changes/blob/main/Assets/Account%20info%20.pdf)
 
 ---
 ## change 7:
 
-In the **Mobile App** the **Fill Data** pages (Questions & Fields) should fill the fields and reflect the data on a PDF file and give the **Admin** the abitlity to Print it from the **Fill data** section.
+In the **Mobile App** the **Fill Data** pages (Questions & Fields) should fill the fields and reflect the data on a PDF/Word file and give the **Admin** the abitlity to Print it from the **Fill data** section.
 
 ### example of Implementation Steps
 
@@ -94,8 +94,8 @@ In the **Mobile App** the **Fill Data** pages (Questions & Fields) should fill t
 
 #### Server (Backend - .NET Core):
 - Receive data from the mobile app.
-- Use a PDF library to populate the PDF template.
-- Store the completed PDF or make it available for download.
+- Use a PDF/Word library to populate the PDF/Word template.
+- Store the completed PDF/Word or make it available for download.
 
 #### Admin Dashboard (Angular):
 - Provide an interface to download, or print the completed PDF. Instead of Displaying the fields.
@@ -127,7 +127,7 @@ URL: http://admin.nanojobs-gmbh.de/#/dashboard/workers/details-worker/1/worker-e
 
 **Note**: ***There is information (Notes Add on the PDF) in the PDF file below that has been entered previously, such as the first and last name and the job title...etc in case you can use it***
 
-[Fragenborgen Alten- und Krankenpflege_Exam]()
+[Fragenborgen Alten- und Krankenpflege_Exam](https://github.com/alharet7/NanoJobs_Changes/blob/main/Assets/Fragenborgen%20Alten-%20und%20Krankenpflege_Exam.pdf)
 
 ---
 ## Change 9:
@@ -149,7 +149,7 @@ In the **Mobile App** in the -> **Upload Documents** Section
 
 ![ID CARD](./Assets/IDCardUpdate.jpg)
 
-[Upload Documents PDF]()
+[Upload Documents PDF](https://github.com/alharet7/NanoJobs_Changes/blob/main/Assets/Upload%20Documents%20.pdf)
 
 ## Change 11:
 
@@ -164,15 +164,16 @@ In the **Mobile App** -> **Document** Section -> **Personal Request** Section
 
 And reflect those data on the ***Antrag Auszahlung  ÜS*** -PDF file below with the other data that provided already before,
 After that the Admin will print it from the **Download document** page:
+
 URL: http://admin.nanojobs-gmbh.de/#/dashboard/workers/worker-download
 
-[Antrag Auszahlung  ÜS -PDF file]()
+[Antrag Auszahlung  ÜS -PDF file](https://github.com/alharet7/NanoJobs_Changes/blob/main/Assets/Antrag%20Auszahlung%20%20%C3%9CS.pdf)
 
  - The 2nd window/Box **Kündigung**
   - Use the Data provided already before To fill the main Data (f.name,l.name. Address ...etc). and fill it in the right place on the **Kündigung Muster MA** PDF file provided below.
   - Add a Download button with a note (Download the resignation file / Laden Sie die Kündigungsdatei herunter) - (for the worker on the Mobile.App)!!
 
-[Kündigung Muster MA PDF]()
+[Kündigung Muster MA PDF](https://github.com/alharet7/NanoJobs_Changes/blob/main/Assets/K%C3%BCndigung%20Muster%20MA.pdf)
 
 ***Note: For this file, the Worker has to Download it fill it out manually, and send it by Local mail.***
 
@@ -190,7 +191,7 @@ In the **Mobile App** -> **Time Tracking** -> **Vacations** Section:
  - If he chose the first **Vacation Type** from the DropDown **(Tarif urlaub)**.
  - Send the Data to fill the **Tarifurlaub** PDF file(provided below) when Submit and use the other data that provided already before to fill the rest fields.
 
-[Tarifurlaub PDF file]()
+[Tarifurlaub PDF file](https://github.com/alharet7/NanoJobs_Changes/blob/main/Assets/Tarifurlaub%20.pdf)
 
 ---
 
@@ -200,7 +201,7 @@ In the **Mobile App** -> **Time Tracking** -> **Vacations** Section:
  - If he chose the 2nd **Vacation Type** from the DropDown **(Freizeit Urlaub)**.
  - Send the Data to fill the **Freizeit Urlaub** PDF file(provided below)  and use the other data that provided already before to fill the rest fields when Submit.
 
-[Freizeit Urlaub PDF file]()
+[Freizeit Urlaub PDF file](https://github.com/alharet7/NanoJobs_Changes/blob/main/Assets/Freizeit%20Urlaub%20%20.pdf)
 
 ---
 
@@ -211,7 +212,7 @@ In the **Mobile App** -> **Time Tracking** -> **Vacations** Section:
  - Send the Data to fill the **Sonderurlaub** PDF file(provided below)  and use the other data that provided already before to fill the rest fields when Submit.
  - Note that please if he added a Comment add it in the proper place in the PDF.
 
-[Sonderurlaub  PDF file]()
+[Sonderurlaub  PDF file](https://github.com/alharet7/NanoJobs_Changes/blob/main/Assets/Sonderurlaub%20.pdf)
 
 ---
 
@@ -223,7 +224,7 @@ In the **Mobile App** -> **Time Tracking** -> **Vacations** Section:
  - Send the Data to fill the **Unbezahlten Urlaub** PDF file(provided below)  and use the other data that provided already before to fill the rest fields when Submit.
  - Note that please if he added a Comment add it in the proper place in the PDF.
 
-[Unbezahlten Urlaub  PDF file]()
+[Unbezahlten Urlaub  PDF file](https://github.com/alharet7/NanoJobs_Changes/blob/main/Assets/Unbezahlten%20Urlaub.pdf)
 
 ---
 
@@ -236,7 +237,7 @@ In the **Mobile App** -> **Contract** -> In the **New Order** After the admin su
 - After he clicks the finish button, he should be transferred to a page with a field that is automatically filled in to the system, but he can edit it, and a screen for it to be signed by the company or entity he worked for. After that, the information is saved in the appropriate place in the PDF file, and both the Clint and the admins can download it.
 - The fields are named in the below PDF file.
 
-[Täglicher Tätigkeitsnachweis]()
+[Täglicher Tätigkeitsnachweis](https://github.com/alharet7/NanoJobs_Changes/blob/main/Assets/T%C3%A4glicher%20T%C3%A4tigkeitsnachweis.pdf)
 
 
 ---
@@ -290,7 +291,7 @@ URL: http://client.nanojobs-gmbh.de/#/company-dashboard/documents/time-sheet
 
 On this page, the Address field should be filled automatically from the previously entered information in detail, and the name should show the name of the approved worker after the admin has approved it. The status should be dynamic, reflecting the real status of the request. The status names can be found in the following file.
 
-[New orders-Status ]()
+[New orders-Status ](https://github.com/alharet7/NanoJobs_Changes/blob/main/Assets/New%20orders-Status%20.pdf)
 
 ![Client_NewOrder](./Assets/Client_NewOrder.png)
 URL: http://client.nanojobs-gmbh.de/#/company-dashboard/documents/calendar
