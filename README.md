@@ -59,11 +59,11 @@ in the Image below change the field names to be in this Order and check the voic
 
 ![Worker Hour Recording_Change4](./Assets/Change4_fileds_names.jpg)
 
-1. Durchschnittberechnung 
-2. ⁠Feiertagszuchlag
-3. ⁠Sonntagszuschlag
-4. ⁠Nachtszuschlag 
-5. ⁠Mehrarbeitszuschlag
+1. [Durchschnittberechnung](https://github.com/alharet7/NanoJobs_Changes/blob/main/Change4_PDFs_for_equations/Durchberchnung%20(calculation%20process%20Parameter)%20Net_salary.pdf) 
+2. ⁠[Feiertagszuchlag](https://github.com/alharet7/NanoJobs_Changes/blob/main/Change4_PDFs_for_equations/(Holiday%20surcharge)%20Feiertag-Zuschlag%5B1%5D.pdf)
+3. ⁠[Sonntagszuschlag](https://github.com/alharet7/NanoJobs_Changes/blob/main/Change4_PDFs_for_equations/(Sunday%20surcharge)%20Sonntagszuschlag%5B1%5D.pdf)
+4. ⁠[Nachtszuschlag](https://github.com/alharet7/NanoJobs_Changes/blob/main/Change4_PDFs_for_equations/Nachtszuschlag%5B1%5D.pdf) 
+5. ⁠[Mehrarbeitszuschlag](https://github.com/alharet7/NanoJobs_Changes/blob/main/Change4_PDFs_for_equations/Mehrarbeitszuschlag%5B1%5D.pdf)
 
 امام كل رقم على الصورة قم باستبدال اسم الحقل بالاسماء السابقة
 
